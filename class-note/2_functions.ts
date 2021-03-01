@@ -15,3 +15,11 @@ function sum(a: number, b: number): number {
   return a + b;
 }
 sum(10, 20, 30, 40);  // 30
+
+// 함수의 옵셔널 프로퍼티
+function log(a: string, b?: string) {
+
+}
+
+log('hello world');
+log('hello.ts', 'abc');
