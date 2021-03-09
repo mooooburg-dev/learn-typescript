@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {  // TS -> JS 변환할 때 세부사항 
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": false,
+  },
+  "include": ["./src/**/*"]
+}
